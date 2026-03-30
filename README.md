@@ -1,4 +1,4 @@
-# Smart City Surveillance System
+# Smart City Surveillance System 🏙️
 
 This project simulates a Smart City Surveillance System implemented using Event-Driven Architecture (EDA) and the Publish–Subscribe pattern using an in-process EventBus.
 
@@ -60,7 +60,7 @@ The simulation is executed from `MainSmartCity.java`, where:
 
 The following sequence diagram shows what happens when a speed camera detects a speeding vehicle:
 
-![Sequence Diagram](sequence-diagram.png)
+![Sequence Diagram](sequence_diagram.png)
 
 ---
 
