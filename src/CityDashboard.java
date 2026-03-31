@@ -39,7 +39,7 @@ public class CityDashboard {
     }
 
     @Subscribe
-    public void onSpeedingVehicleEvent(SpeedingVehicleEvent event) {
+    public void onFineIssuedEvent(FineIssuedEvent event) {
         speedingFines++;
         neighborhoodFines.merge(event.getNeighborhood(), 1, Integer::sum);
         printDashboard();

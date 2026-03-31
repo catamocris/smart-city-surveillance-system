@@ -7,7 +7,7 @@ public class MainSmartCity {
         EventBus eventBus = EventBus.getDefault();
 
         // subscribers
-        TrafficPolice trafficPolice = new TrafficPolice("Traffic Police");
+        TrafficPolice trafficPolice = new TrafficPolice(eventBus, "Traffic Police");
         LocalPolice localPolice = new LocalPolice("Local Police");
         NavigationApp googleMaps = new NavigationApp("Google Maps");
         NavigationApp waze = new NavigationApp("Waze");
