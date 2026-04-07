@@ -1,5 +1,4 @@
 import org.greenrobot.eventbus.EventBus;
-import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import java.util.Random;
 
